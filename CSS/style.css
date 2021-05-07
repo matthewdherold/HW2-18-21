@@ -1,0 +1,54 @@
+body {
+    background-color: lightcyan;
+}
+
+nav {
+    background-color: mintcream;
+    padding: 4ch;
+    height: 12ch;
+}
+
+img {
+    padding: 1ch;
+}
+
+.nav-link {
+    color: darkolivegreen;
+}
+
+.currentPage {
+    font-weight: 650;
+}
+
+.formGroup {
+    padding: 4ch;
+}
+
+.formLabel {
+    padding: 1ch;
+}
+
+.elementForm {
+    margin: 5ch; 
+    background-color: mintcream; 
+    padding: 4ch;
+}
+
+#homeImg {
+    padding-right: 3ch; 
+    padding-bottom: 1ch; 
+    float: left;
+}
+
+#navHead {
+    color: darkgreen;
+}
+
+#navbarSupportedContent {
+    float: right;
+}
+
+#navList {
+    position: fixed; 
+    right: 1%;
+}
