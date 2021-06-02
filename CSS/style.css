@@ -1,19 +1,48 @@
 body {
     background-color: lightcyan;
+    font-size: 110%;
 }
 
 nav {
     background-color: mintcream;
     padding: 4ch;
+    width: 100%;
     height: 12ch;
 }
 
+
 img {
     padding: 1ch;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+footer {
+    background-color: mintcream;
+    position: fixed;
+    bottom: 0;
+    padding: 2ch;
+    width: 100%;
+    height: 8ch;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#portfolioCon {
+    display: flex;
 }
 
 .nav-link {
     color: darkolivegreen;
+    background:  transparent;
+    border: none;
+    outline: none;
+}
+
+.nav-link:focus {
+    border: none;
+    outline: none;
 }
 
 .currentPage {
